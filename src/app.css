@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'main';
+    src: url('./lib/assets/fonts/coolvetic.otf');
+}
+
+:root {
+    --primary: #46beff
+}
+
+#nprogress .bar {
+    background: white !important;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	background-attachment: fixed;
+	background-size: 100vw 100vh;
+	background-color: #111;
+	color: white;
+}
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-button:increment,
+.contenedor::-webkit-scrollbar-button {
+    display: none;
+}
+
+body::-webkit-scrollbar:horizontal {
+    height: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 2px;
+    border: none;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 1px;
+    background-color: #111;
+}
