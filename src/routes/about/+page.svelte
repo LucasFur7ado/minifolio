@@ -14,9 +14,9 @@
       Developed by
       <a
         rel="noreferrer"
-        href="https://lucasfurtado.es"
+        href="https://lucasfurtado.xyz"
         target="_blank"
-        class="text-[#46beff]">lucasfurtado.es</a>
+        class="text-[#46beff]">lucasfurtado.xyz</a>
       in SvelteKit and TailwindCSS.
     </p>
     <div
